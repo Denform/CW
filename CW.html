@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсовая Работа</title>
+    <link rel="stylesheet" href="Labs.css">
+</head>
+<body>
+    <!-- style="text-align: center" -->
+        <div class="content">    
+
+            <h1 class="title">Курсовая Работа <br> Вариант 6 <br> </h1>
+
+            <div class="task">Разработка скрипта «Выход из лабиринта». Лабиринт может быть представлен двухмерной матрицей, где нули представляют области, по которым можно ходить, а единицы представляют стены. Вы начинаете с верхнего левого угла, а выход находится в самой нижней правой ячейке. Создайте функцию, которая возвращает true, если вы можете пройти от одного конца лабиринта до другого. Вы можете двигаться только вверх, вниз, влево и вправо. Вы не можете двигаться по диагонали. В лабиринте размером m x n вы входите в [0, 0] и выходите в [m-1, n-1]. В лабиринте могут быть тупики. Достаточно найти только один выход.</div>
+
+            <div class="txt">
+                <div class="txtOne">
+                    <h2>Добавить лабиринт:</h2>
+                    <textarea  id="input" rows="10" cols="45" name="text"></textarea>
+                </div>
+                
+                <div class="txtTwo">
+                    <h2>Результат:</h2>
+                    <textarea  id="output" rows="10" cols="45" name="text"></textarea>
+                </div>
+            </div>
+
+            <button onclick="document.getElementById('output').value = findWayOut(document.getElementById('input').value);"  type="button">Проверить</button>
+    
+        </div>
+
+    <script src="CW.js"></script>
+
+</body>
+</html>

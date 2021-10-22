@@ -1,0 +1,70 @@
+    body
+    {
+        background-image: url(fon.jpg);
+        text-align: center;
+        color: white;
+    }
+
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .txt
+    {
+        display: flex;
+    }
+
+    .txtOne, .txtTwo
+    {
+        margin: 0 50px 50px 50px;
+    }
+
+    .task
+    {
+        width: 50%;
+    }
+
+    textarea 
+    {
+        border-radius: 20px;
+        height: 200px;
+        max-width: 400px;
+        width: 100%;
+        color:#fff;
+        background-color: #696969;
+        vertical-align:middle;
+        outline: none;
+        text-indent: 2px;
+        display: inline-block;
+        box-sizing: border-box;
+        border: 2px solid #00FF00;
+        font-size: 16px;    
+        cursor: url("picture/light/Help.cur"),default;  
+        -webkit-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    } 
+
+
+    button 
+    {
+        margin-top: 10px;
+        border-radius: 20px;
+        height: 30px;
+        max-width: 140px;
+        width: 100%;
+        color:#fff;
+        background-color: #696969;
+        vertical-align:middle;
+        outline: none;
+        display: inline-block;
+        box-sizing: border-box;
+        cursor: url("picture/light/Help.cur"),default;
+        border: 2px solid #00FF00;
+        font-size: 16px;    
+        -webkit-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    } 
+
